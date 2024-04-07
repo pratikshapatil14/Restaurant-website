@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>foodWebsite</title>
+	<style>
+        #nav{
+	height: 100px;
+	width: 100%;
+	background: rgb(148, 148, 148);
+	position: relative;
+	
+}
+#slogan{
+	height: 55px;
+	width: 100%;
+	background: black;
+	font-size: 20px;
+	font-weight: bolder;
+	color: aquamarine;
+    background-color: #2e2e2e;
+    font-weight: bold;
+    font-style: oblique;
+   }
+#home{
+	height: 500px;
+	width: 100%;
+	background: gray;
+}
+#about{
+	height: 550px;
+	width: 100%;
+	background: yellow;
+}
+#menu{
+	height: 850px;
+	width: 100%;
+	background: red;
+}
+#order{
+	height: 318px;
+	width: 100%;
+	background: green;
+}
+
+#contact{
+	height: 162px;
+	width: 100%;
+	background:yellow;
+}
+footer{
+	height: 50px;
+	background: blue;
+	width: 99.55%;
+}
+#logo{
+	height: 80px;
+	width: 80px;
+	border-radius:100%;
+	transform: translate(20px,10px);
+
+}
+#name{
+	font-size: 50px;
+	position: absolute;
+	left:110px;
+	top:20px;
+}
+.items{
+	display: flex;
+}
+.items li{
+   list-style: none;
+   margin-left: 1.5rem;
+   margin-bottom: 0.5rem;
+   font-size: 1.6rem;
+   transform: translate(800px,-60px);
+	}
+
+ .items a{
+     text-decoration: none;
+     color: yellow;
+     font-weight: 500;
+     }
+ .items a:hover{
+ 	color: lightcyan;
+ }
+ #ID1{
+                background-image: url("D:/htmlcss/assignments/img.jpg");
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                height: 100%;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: aliceblue;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-size:  40px;
+                opacity:  1;
+                text-shadow: 0px 0px 15px red;
+           }
+.about_1{
+                background-color: antiquewhite;
+                padding: 5px;
+           }
+           
+            .about_1 img{
+                float: right;
+                border: #2e2e2e;
+                border-style: groove;
+                height: 300px;
+                width: 300px;
+           }
+
+            .about_2{
+                float: left;  
+           }
+.menu_1 img{
+                position: relative;
+                left: 300px;   
+                top: 150px;
+           }
+           
+           .menu_1 h3{
+                font-family: 'Times New Roman', Times, serif;
+                font-style: inherit;
+                display: inline;
+                border-bottom: 2px dotted;
+                
+           }
+
+        
+.menu{
+            background-image: url('D:/htmlcss/assignments/menu4.jpg');
+            background-attachment: fixed;
+            width: 49.8%;
+            height: 400px;
+            float: left;
+            border:1px solid black;
+            background-repeat:  no-repeat;
+            background-size:    cover;
+            color:  white;
+            position:   relative ;
+            
+
+                     }
+
+        .menu li{
+                padding-top: 20px;
+            }
+            #menutitle{
+                height: 50px;
+                width:  100%;
+                background-color: black;
+                color:Red;
+                text-align:    center;
+
+            }
+            #foodpic{
+                position:   absolute;
+                top:50px;
+                Right:10px;
+            	border-radius:  10px;
+
+            } #order_1{
+                background-color: rgb(202, 232, 167);
+                padding-left: 10px;
+                padding-bottom: 10px;
+           }
+
+            button{
+                padding: 10px 20px;
+                background-color: #68affc;
+                color: #fff;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+                font-size: 16px;
+           }
+           button:hover{
+            background-color:   green;
+
+           }
+#contact_1{
+                background-image: url("D:/htmlcss/assignments/contact.jpg");
+                background-position-x: right;
+
+           }
+
+            #contact_1 p{
+                padding-bottom: 10px;
+                padding-left: 50px;
+                color: yellow;
+                transform: translate(100px);
+           }
+
+            #contact_1 h2{
+                color: white;
+                text-align: left;
+                padding-left: 10px;
+                transform:translate(140px);
+           }
+
+           footer{
+                text-align: center;
+                color: red;
+                background-color: #2e2e2e;
+                padding: 3px
+           }
+    </style>
+</head>
+<body>
+	<section id="nav">
+		<img src="logo.jpg" id="logo"/>
+            <b id="name">The Modern</b>
+            <ul class="items">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#order">Order</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+
+	</section>
+	<section id="slogan">
+		<marquee direction="right">Good Food in a Friendly Place</marquee>
+        <marquee>Taste the Best, Forget the Rest!</marquee>
+	</section>
+	<section id="home">
+		<div id="ID1">
+                <h1><b>Eat Healthy, it is good for our health</b></h1>
+        </div>
+	</section>
+	<section id="about">
+		<div class="about_1">
+
+            <p><h2>About Us</h2></p>
+
+            <div class="about_1">
+            <img src="D:/htmlcss/assignments/food.jpg" alt="food"/>
+            </div>
+
+            <h2 id="ID2">We have been making healthy food last for 10 years</h2>
+           
+            <p><h4>Welcome to The Modern Restaurant</h4>
+                Warm and welcoming,<b>The modern</b> offers a lively atmosphere that makes it the perfect choice for all-day dining.<br>
+                The restaurant offer a service of quality to customers,for satisfaction of both.
+            </p>
+
+            <p><h4>Culinary Artistry with a Modern Twist</h4>
+                Our talented team of chefs is dedicated to crafting a menu that showcases the best of contemporary cuisine, drawing inspiration from global flavors and seasonal ingredients.<br>
+                 Each dish is a carefully curated masterpiece, designed to delight your taste buds and challenge your palate.
+            </p>
+
+            <p><h4>Community and Connection</h4>
+               We believe in the power of bringing people together through food. That's why we host events, workshops, and tastings to foster a sense of community among our guests and fellow food enthusiasts.<br>
+                Follow us on social media and stay updated on our upcoming gatherings.
+            </p>
+            
+            <p><h4>Visit Us</h4>We invite you to join us at The modern for a dining experience that transcends the ordinary.<br>
+             Whether you're a seasoned foodie or just looking for a memorable night out, we promise to leave you with a taste of something extraordinary.
+            </p>
+
+           </div>
+
+	</section>
+	<section id="menu">
+		<div id="menutitle"><h2><u>Menu's:</u></h2></div>
+        <div class="menu">
+            <h3>* BIRYANI:</h3>
+            <img src="D:/htmlcss/assignments/birayani_1.jpg" alt="rice" height="300" width="300" id="foodpic"/>
+                <ul type="circle">
+                    <li>CHICKEN BIRYANI  ...180/-</li>
+                    <li>MUTTON BIRYANI  ...260/-</li>
+                    <li>TANDOORI BIRYANI  ...220/-</li>
+                    <li>PANEER BIRYANI   ...160/-</li>
+                    <li>HYDERABADI BIRYANI  ...200/-</li>
+                </ul>
+
+        </div>
+        <div class="menu">
+            <H3>* PURE VEG:</H3>
+                <img src="D:/htmlcss/assignments/paneerchilli.jpg" alt="chilli" height="300" width="300" id="foodpic"/>
+                <ul type="circle">
+                    <li>DAL TADKA   ...160/-</li>
+                    <li>SHAHI PANEER  ...180/-</li>
+                    <li>MUTTER PANEER ...200/-</li>
+                    <li>MIXED VEG ...220/-</li>
+                    <li>MASHROOM CHILLI ...200/-</li>
+                    <li>PANNER CHILLI ...240/-</li>
+                </ul>
+        </div>
+        <div class="menu">
+            <h3>* RICE:</h3>
+                <img src="D:/htmlcss/assignments/veg-fried-rice.jpg" alt="rice" height="300" width="300" id="foodpic"/>
+                <ul type="disc">
+                    <li>JEERA RICE ...140/-</li>
+                    <li>BASMATI RICE ...160/-</li>
+                    <li>SAFFRON RICE  ...180/-</li>
+                    <li>FRIED RICE  ...200/-</li>
+                    <li>PEAS PULAO  ...220/-</li>
+                </ul>
+        </div>
+        <div class="menu">
+            <h3>* BREAD'S:</h3>
+                <img src="D:/htmlcss/assignments/roti.jpg" alt="rice" height="300" width="300" id="foodpic"/>
+                <ul type="circle">
+                    <li>BUTTER ROTI ...30/-</li>
+                    <li>LACHHA PARANTHA ...60/-</li>
+                    <li>ALOO PARANTHA ...60/-</li>
+                    <li>GARLIC NAAN ...100/-</li>
+                    <li>MISSI ROTI ...100/-</li>
+                    <li>PANEER PARANTHA ...100/-</li>
+                </ul>
+
+        </div>
+	</section>
+	<section id="order">
+		<form>
+
+            <div id="order_1">
+                <h2>Order:</h2>
+                <p><i>CASH ON DELIVERY AVAILABLE</i></p>
+                <label>Customer Name :</label>
+                <input type="text" placeholder="Your Name" /><br><br>
+                <label>Email :</label>
+                <input type="email" placeholder="E-Mail" /><br><br>
+                <label>Phone no.:</label>
+                <input type="text" placeholder="enter your mobile no."/><br><br>
+                <label>Order Details :</label>
+                <textarea cols="10" rows="3" placeholder="Type Your order"></textarea><br><br>
+                <button type="submit">Order now</button>
+            </div>
+            </form>
+
+
+	</section>
+	<section id="contact">
+		<div id="contact_1">
+                <h2>Contact Us:</h2>
+                <P>BALARAM PATIL </P>
+                <p>Email: balarampatil4950@gmail.com</p>
+                <p>Phone No.: 9323402238</P>
+            </div>
+		
+	</section>
+	<footer><p>Copyright ©-All rights are reserved</p></footer>
+
+</body>
+</html>
